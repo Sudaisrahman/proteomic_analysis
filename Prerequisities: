@@ -1,0 +1,6 @@
+conda create --name drgFinder
+conda activate drgFinder
+conda install -c bioconda -y blast
+conda install -c bioconda -y seqtk
+pip3 install biopython
+pip3 install pandas
